@@ -1,3 +1,6 @@
+Questionpaper.java
+
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -39,9 +42,9 @@ public class Questionpaper extends JFrame {
 	int index=0;
 	
 	String arr[][] = {
-		    {"1. Number of primitive data types in Java are?", "6" ,"7", "8", "9","8"},
+			{"1. Number of primitive data types in Java are?", "6" ,"7", "8", "9","c"},
 			{"2. Which component is used to compile, debug and execute the java programs?", "a) JRE" ,"b) JIT", "c) JDK", "d) JVM","c"},
-			{"3. Select the valid statement.", "char ch[]=new char(5)" ,"char ch[]=new char[5]", "char ch[]=new char()", "char ch[]=new char[]","char ch[]=new char[5]"},
+			{"3. Select the valid statement.", "char ch[]=new char(5)" ,"char ch[]=new char[5]", "char ch[]=new char()", "char ch[]=new char[]","b"},
 			{"4. What makes the Java platform independent?", "a) Advanced programming language" ,"b) It uses bytecode for execution", "c) Class compilation", "d) All of these","b"},
 			{"5. Which environment variable is used to set the java path?", "a) MAVEN_Path" ,"b) JavaPATH", "c) JAVA", "d) JAVA_HOME","d"},
 	};
@@ -135,19 +138,19 @@ public class Questionpaper extends JFrame {
 		String uans = "";
 		if(rdbtnNewRadioButton.isSelected())
 		{
-			uans = rdbtnNewRadioButton.getText().toString();
+			uans = "a";
 		}
 		else if(rdbtnNewRadioButton_1.isSelected())
 		{
-			uans = rdbtnNewRadioButton_1.getText().toString();
+			uans = "b";
 		}
 		else if(rdbtnNewRadioButton_2.isSelected())
 		{
-			uans = rdbtnNewRadioButton_2.getText().toString();
+			uans =	"c";
 		}
 		else if(rdbtnNewRadioButton_3.isSelected())
 		{
-			uans = rdbtnNewRadioButton_3.getText().toString();
+			uans = "d";
 		}
 		userAnswer[index] = uans;
 	}
